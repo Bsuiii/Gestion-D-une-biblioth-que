@@ -195,17 +195,4 @@ public class AddOeuvre extends JFrame {
 	}
 
 
-/*
- * 
-private ArticleControleur ctrArt;
-private void listing(){
-ctrArt=new ArticleControleur();
-ArrayList<Article> allart= ctrArt.getAll();
-DefaultTableModel m=(DefaultTableModel)table.getModel();
-m.setNumRows(0);
-for(Article art:allart)
-    m.addRow(new Object[]{art.getCode(),art.getLibelle(),art.getPrix(),art.getNomCat()});
-}
-	 * */
-
 }
